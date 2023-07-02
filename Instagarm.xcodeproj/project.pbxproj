@@ -30,6 +30,7 @@
 		C063796A2A4FC89C007033A5 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06379692A4FC89C007033A5 /* StorageManager.swift */; };
 		C063796C2A4FC8B1007033A5 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C063796B2A4FC8B1007033A5 /* AnalyticsManager.swift */; };
 		C063796E2A4FC8C1007033A5 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C063796D2A4FC8C1007033A5 /* HapticsManager.swift */; };
+		C06379702A5181B1007033A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C063796F2A5181B1007033A5 /* GoogleService-Info.plist */; };
 		C093AE6A2A4FBA24006C475B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C093AE692A4FBA24006C475B /* AppDelegate.swift */; };
 		C093AE6C2A4FBA24006C475B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C093AE6B2A4FBA24006C475B /* SceneDelegate.swift */; };
 		C093AE6E2A4FBA24006C475B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C093AE6D2A4FBA24006C475B /* HomeViewController.swift */; };
@@ -84,6 +85,7 @@
 		C06379692A4FC89C007033A5 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		C063796B2A4FC8B1007033A5 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
 		C063796D2A4FC8C1007033A5 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		C063796F2A5181B1007033A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C093AE662A4FBA24006C475B /* Instagarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C093AE692A4FBA24006C475B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C093AE6B2A4FBA24006C475B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 		C06379442A4FC264007033A5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C063796F2A5181B1007033A5 /* GoogleService-Info.plist */,
 				C093AE722A4FBA24006C475B /* Assets.xcassets */,
 				C093AE6B2A4FBA24006C475B /* SceneDelegate.swift */,
 				C093AE692A4FBA24006C475B /* AppDelegate.swift */,
@@ -399,6 +402,7 @@
 			files = (
 				C093AE762A4FBA24006C475B /* LaunchScreen.storyboard in Resources */,
 				C093AE732A4FBA24006C475B /* Assets.xcassets in Resources */,
+				C06379702A5181B1007033A5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
